@@ -11,10 +11,9 @@ export default class productEpic {
                 const getJsonUrl = 'https://nonchalant-soprano.glitch.me/getProductDetail'
                 return HttpService.get(getJsonUrl)
                     .switchMap((response) => {
-                        debugger
                         if (response.status === 200) {
                             return Observable.of(
-                                productAction.getProductDetailSuccess(response.response)
+                                productAction.getProductDetailSuccess(response.response.data)
                             )
                         }
                     }).catch((err) => {

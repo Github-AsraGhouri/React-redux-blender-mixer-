@@ -34,9 +34,9 @@ class Crousel extends Component {
                                         <div onClick={() => this.changeImage(img)} className={i === 0 ? "carousel-item col-md-3 active" : "carousel-item col-md-3"}>
                                             <div className="panel panel-default">
                                                 <div className="panel-thumbnail">
-                                                    <a href="#" title="image 1" className="thumb">
+                                                    <div className="thumb mouse-pointer">
                                                         <img className="img-fluid mx-auto d-block" src={img.image} alt="slide 1" />
-                                                    </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

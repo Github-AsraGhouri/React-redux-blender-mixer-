@@ -10,21 +10,21 @@ const initialState = {
 
 export default function productReducer(state = initialState, action) {
     switch (action.type) {
-        case 'GET_PRODUCT_DETAIL':
+        case GET_PRODUCT_DETAIL:
             return {
                 productsDetail: null,
                 productsDetailLoader: true,
                 productsDetailError: null
             }
 
-        case 'GET_PRODUCT_DETAIL_SUCCESS':
+        case GET_PRODUCT_DETAIL_SUCCESS:
             return {
                 productsDetail: action.payload,
                 productsDetailLoader: false,
                 productsDetailError: null
             }
 
-        case 'GET_PRODUCT_DETAIL_FAILURE':
+        case GET_PRODUCT_DETAIL_FAILURE:
             return {
                 productsDetail: null,
                 productsDetailLoader: false,

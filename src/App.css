@@ -437,7 +437,7 @@ transition-duration: 0.2s;
 }
 
 /* Bootstrap Lightbox using Modal */
-
+.mouse-pointer {cursor: pointer;}
 #profile-grid { overflow: auto; white-space: normal; } 
 #profile-grid .profile { padding-bottom: 40px; }
 #profile-grid .panel { padding: 0 }
