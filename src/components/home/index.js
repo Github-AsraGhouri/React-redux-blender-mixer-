@@ -50,12 +50,6 @@ class Home extends Component {
     }
 }
 
-Home.propTypes = {
-    productsDetail: PropTypes.object.isRequired,
-    productsDetailLoader: PropTypes.bool.isRequired,
-    productsDetailError: PropTypes.bool.isRequired
-};
-
 const mapStateToProps = (state) => {
     const { productReducer: { productsDetail, productsDetailLoader, productsDetailError } } = state;
     return {
