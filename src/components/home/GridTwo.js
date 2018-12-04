@@ -21,8 +21,13 @@ class GridTwo extends Component {
                     </p>
                     <div className="benefits">
                         <ul className="fa-ul">
-                            <li><span class="fa-li" ><i class="fa fa-tag"></i></span>spend $50, ship free</li>
-                            <li><span class="fa-li" ><i class="fa fa-tag"></i></span>$25 gift card with purchase of a select Ninja Blender</li>
+                            {
+                                json.Promotions && json.Promotions.map((promotion) => {
+                                    return (
+                                        <li><span class="fa-li" ><i class="fa fa-tag"></i></span>{promotion.Description ? promotion.Description[0].shortDescription : ''}</li>
+                                    )
+                                })
+                            }
                         </ul>
                     </div>
                 </section>

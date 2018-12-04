@@ -39,7 +39,19 @@ class Home extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
-                                    <Reviews json={this.state.json} />
+                                    <Reviews
+                                        totalReviews={this.state.json.CustomerReview[0].totalReviews}
+                                        ProOverallRating={this.state.json.CustomerReview[0].Pro[0].overallRating}
+                                        ProDatePosted={this.state.json.CustomerReview[0].Pro[0].datePosted}
+                                        ProTitle={this.state.json.CustomerReview[0].Pro[0].title}
+                                        ProReview={this.state.json.CustomerReview[0].Pro[0].review}
+                                        ProScreenName={this.state.json.CustomerReview[0].Pro[0].screenName}
+                                        ConOverallRating={this.state.json.CustomerReview[0].Con[0].overallRating}
+                                        ConDatePosted={this.state.json.CustomerReview[0].Con[0].datePosted}
+                                        ConTitle={this.state.json.CustomerReview[0].Con[0].title}
+                                        ConReview={this.state.json.CustomerReview[0].Con[0].review}
+                                        ConScreenName={this.state.json.CustomerReview[0].Con[0].screenName}
+                                    />
                                 </div>
                             </div>
                         </div>
