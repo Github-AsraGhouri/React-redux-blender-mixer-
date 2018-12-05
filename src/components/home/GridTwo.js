@@ -34,9 +34,9 @@ class GridTwo extends Component {
                     <div className="quantity">
                         <span> quantity: </span>
                         <span className="round-buttons pull-right">
-                            <i style={{ cursor: 'pointer' }} onClick={() => this.state.quantity > 1 ? this.setState({ quantity: this.state.quantity - 1 }) : ''} className="fa fa-minus-circle" aria-hidden="true"></i>
+                            <button style={{ cursor: 'pointer', background: 'none', border: 'none', outline: 'none' }} onClick={() => this.state.quantity > 1 ? this.setState({ quantity: this.state.quantity - 1 }) : ''} className="fa fa-minus-circle" aria-hidden="true"></button>
                             <span className="increament">{this.state.quantity}</span>
-                            <i style={{ cursor: 'pointer' }} onClick={() => this.setState({ quantity: this.state.quantity + 1 })} className="fa fa-plus-circle" aria-hidden="true"></i>
+                            <button style={{ cursor: 'pointer', background: 'none', border: 'none', marginLeft: '-10px', outline: 'none' }} onClick={() => this.setState({ quantity: this.state.quantity + 1 })} className="fa fa-plus-circle" aria-hidden="true"></button>
                         </span>
                     </div>
                 </section>
