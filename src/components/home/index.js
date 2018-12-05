@@ -4,7 +4,6 @@ import Crousel from './Crousel'
 import Reviews from './Reviews'
 import GridTwo from './GridTwo'
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import { productAction } from './../../store/actions'
 import { withRouter } from 'react-router-dom';
 
@@ -31,7 +30,12 @@ class Home extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-xs-12 col-md-6">
-                                    <Crousel json={this.state.json} />
+                                    <Crousel
+                                        json={this.state.json}
+                                        AlternateImages={this.state.json.Images[0].AlternateImages}
+                                        PrimaryImage={this.state.json.Images[0].PrimaryImage[0].image}
+                                        title={this.state.json.title}
+                                    />
                                 </div>
                                 <div className="col-xs-12 col-md-6">
                                     <GridTwo json={this.state.json} />

@@ -17,6 +17,5 @@ describe('<Reviews />', () => {
       expect(componentHtml.find('span').length).toEqual(20);
       expect(componentHtml.find('h2').length).toEqual(4);
       expect(componentHtml.find('p').length).toEqual(6);
-      expect(componentHtml.prop('CustomerReview')).toBeUndefined();
     });
   });

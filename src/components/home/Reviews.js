@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 class Reviews extends Component {
     render() {
-        let { json } = this.props
         return (
             <div className="container">
                 <div className="row reviews">
