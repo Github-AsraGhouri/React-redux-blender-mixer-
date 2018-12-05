@@ -8,21 +8,20 @@ class GridTwo extends Component {
         }
     }
     render() {
-        let { json } = this.props
         const regex = /(<([^>]+)>)/ig;
         return (
             <div className="container">
                 <section>
                     <p>
                         <span className="price">
-                            {json.Offers[0].OfferPrice[0].formattedPriceValue}
+                            {this.props.formattedPriceValue}
                         </span>
-                        {json.Offers[0].OfferPrice[0].priceQualifier}
+                        {this.props.priceQualifier}
                     </p>
                     <div className="benefits">
                         <ul className="fa-ul">
                             {
-                                json.Promotions && json.Promotions.map((promotion) => {
+                                this.props.Promotions && this.props.Promotions.map((promotion) => {
                                     return (
                                         <li><span class="fa-li" ><i class="fa fa-tag"></i></span>{promotion.Description ? promotion.Description[0].shortDescription : ''}</li>
                                     )
@@ -45,7 +44,7 @@ class GridTwo extends Component {
                     <div className="row">
                         <div className="col-6">
                             {
-                                parseInt(json.purchasingChannelCode) === 0 || parseInt(json.purchasingChannelCode) === 2 ?
+                                parseInt(this.props.purchasingChannelCode) === 0 || parseInt(this.props.purchasingChannelCode) === 2 ?
                                     <button type="button" class="btn btn-secondary btn-lg btn-block" id="pickup-btn">PICK UP IN STORE</button>
                                     : ''
                             }
@@ -53,7 +52,7 @@ class GridTwo extends Component {
                         </div>
                         <div className="col-6">
                             {
-                                parseInt(json.purchasingChannelCode) === 0 || parseInt(json.purchasingChannelCode) === 1 ?
+                                parseInt(this.props.purchasingChannelCode) === 0 || parseInt(this.props.purchasingChannelCode) === 1 ?
                                     <button type="button" class="btn btn-secondary btn-lg btn-block" id="cart-btn">ADD TO CART</button>
                                     : ''
                             }
@@ -87,7 +86,7 @@ class GridTwo extends Component {
                     </div>
                     <ul className="product-list">
                         {
-                            json.ItemDescription[0].features && json.ItemDescription[0].features.map((feature) => {
+                            this.props.features && this.props.features.map((feature) => {
                                 return <li>{feature.replace(regex, '')}</li>
                             })
                         }

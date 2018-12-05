@@ -38,7 +38,14 @@ class Home extends Component {
                                     />
                                 </div>
                                 <div className="col-xs-12 col-md-6">
-                                    <GridTwo json={this.state.json} />
+                                    <GridTwo
+                                        json={this.state.json}
+                                        formattedPriceValue={this.state.json.Offers[0].OfferPrice[0].formattedPriceValue}
+                                        priceQualifier={this.state.json.Offers[0].OfferPrice[0].priceQualifier}
+                                        Promotions={this.state.json.Promotions}
+                                        purchasingChannelCode={this.state.json.purchasingChannelCode}
+                                        features={this.state.json.ItemDescription[0].features}
+                                    />
                                 </div>
                             </div>
                             <div className="row">

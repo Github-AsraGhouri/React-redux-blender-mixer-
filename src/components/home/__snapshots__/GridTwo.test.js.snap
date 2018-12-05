@@ -1,0 +1,1783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridTwo /> renders component with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <GridTwo
+    props={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <section>
+          <p>
+            <span
+              className="price"
+            />
+          </p>
+          <div
+            className="benefits"
+          >
+            <ul
+              className="fa-ul"
+            />
+          </div>
+        </section>,
+        <section>
+          <div
+            className="quantity"
+          >
+            <span>
+               quantity: 
+            </span>
+            <span
+              className="round-buttons pull-right"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-minus-circle"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+              <span
+                className="increament"
+              >
+                1
+              </span>
+              <i
+                aria-hidden="true"
+                className="fa fa-plus-circle"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </span>
+          </div>
+        </section>,
+        <section
+          className="container shop-section"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              
+              <p
+                className="find-coach"
+              >
+                 find in store
+              </p>
+            </div>
+            <div
+              className="col-6"
+            >
+              
+            </div>
+          </div>
+        </section>,
+        <section
+          className="return-section"
+        >
+          <div
+            className="row"
+          >
+            <span
+              className="return-title col-2"
+            >
+              return
+            </span>
+            <span
+              className="return-details col-10"
+            >
+               This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.
+            </span>
+          </div>
+          <div
+            className="row policy-details"
+          >
+            <div
+              className="col-4"
+            >
+              <button
+                class="btn btn-secondary btn-lg btn-block"
+                id="get-registry"
+                type="button"
+              >
+                ADD TO REGISTRY
+              </button>
+            </div>
+            <div
+              className="col-4"
+            >
+              <button
+                class="btn btn-secondary btn-lg btn-block"
+                id="get-registry"
+                type="button"
+              >
+                ADD TO LIST
+              </button>
+            </div>
+            <div
+              className="col-4"
+            >
+              <button
+                class="btn btn-secondary btn-lg btn-block"
+                id="get-registry"
+                type="button"
+              >
+                SHARE
+              </button>
+            </div>
+          </div>
+        </section>,
+        <section
+          className="product-highlights"
+        >
+          <div
+            className="row"
+          >
+            <span
+              className="col-12"
+            >
+              <h1
+                className="highlights-heading"
+              >
+                products highlights
+              </h1>
+            </span>
+          </div>
+          <ul
+            className="product-list"
+          />
+        </section>,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              <span
+                className="price"
+              />
+            </p>,
+            <div
+              className="benefits"
+            >
+              <ul
+                className="fa-ul"
+              />
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="price"
+                />,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "price",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              undefined,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul
+                className="fa-ul"
+              />,
+              "className": "benefits",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "fa-ul",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "ul",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="quantity"
+          >
+            <span>
+               quantity: 
+            </span>
+            <span
+              className="round-buttons pull-right"
+            >
+              <i
+                aria-hidden="true"
+                className="fa fa-minus-circle"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+              <span
+                className="increament"
+              >
+                1
+              </span>
+              <i
+                aria-hidden="true"
+                className="fa fa-plus-circle"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </span>
+          </div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                 quantity: 
+              </span>,
+              <span
+                className="round-buttons pull-right"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-minus-circle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+                <span
+                  className="increament"
+                >
+                  1
+                </span>
+                <i
+                  aria-hidden="true"
+                  className="fa fa-plus-circle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </span>,
+            ],
+            "className": "quantity",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " quantity: ",
+              },
+              "ref": null,
+              "rendered": " quantity: ",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-minus-circle"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  />,
+                  <span
+                    className="increament"
+                  >
+                    1
+                  </span>,
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-plus-circle"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  />,
+                ],
+                "className": "round-buttons pull-right",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "fa fa-minus-circle",
+                    "onClick": [Function],
+                    "style": Object {
+                      "cursor": "pointer",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1,
+                    "className": "increament",
+                  },
+                  "ref": null,
+                  "rendered": 1,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "fa fa-plus-circle",
+                    "onClick": [Function],
+                    "style": Object {
+                      "cursor": "pointer",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              
+              <p
+                className="find-coach"
+              >
+                 find in store
+              </p>
+            </div>
+            <div
+              className="col-6"
+            >
+              
+            </div>
+          </div>,
+          "className": "container shop-section",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col-6"
+              >
+                
+                <p
+                  className="find-coach"
+                >
+                   find in store
+                </p>
+              </div>,
+              <div
+                className="col-6"
+              >
+                
+              </div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "",
+                  <p
+                    className="find-coach"
+                  >
+                     find in store
+                  </p>,
+                ],
+                "className": "col-6",
+              },
+              "ref": null,
+              "rendered": Array [
+                "",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " find in store",
+                    "className": "find-coach",
+                  },
+                  "ref": null,
+                  "rendered": " find in store",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "col-6",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <span
+                className="return-title col-2"
+              >
+                return
+              </span>
+              <span
+                className="return-details col-10"
+              >
+                 This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.
+              </span>
+            </div>,
+            <div
+              className="row policy-details"
+            >
+              <div
+                className="col-4"
+              >
+                <button
+                  class="btn btn-secondary btn-lg btn-block"
+                  id="get-registry"
+                  type="button"
+                >
+                  ADD TO REGISTRY
+                </button>
+              </div>
+              <div
+                className="col-4"
+              >
+                <button
+                  class="btn btn-secondary btn-lg btn-block"
+                  id="get-registry"
+                  type="button"
+                >
+                  ADD TO LIST
+                </button>
+              </div>
+              <div
+                className="col-4"
+              >
+                <button
+                  class="btn btn-secondary btn-lg btn-block"
+                  id="get-registry"
+                  type="button"
+                >
+                  SHARE
+                </button>
+              </div>
+            </div>,
+          ],
+          "className": "return-section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="return-title col-2"
+                >
+                  return
+                </span>,
+                <span
+                  className="return-details col-10"
+                >
+                   This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.
+                </span>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "return",
+                  "className": "return-title col-2",
+                },
+                "ref": null,
+                "rendered": "return",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.",
+                  "className": "return-details col-10",
+                },
+                "ref": null,
+                "rendered": " This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-4"
+                >
+                  <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    ADD TO REGISTRY
+                  </button>
+                </div>,
+                <div
+                  className="col-4"
+                >
+                  <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    ADD TO LIST
+                  </button>
+                </div>,
+                <div
+                  className="col-4"
+                >
+                  <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    SHARE
+                  </button>
+                </div>,
+              ],
+              "className": "row policy-details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    ADD TO REGISTRY
+                  </button>,
+                  "className": "col-4",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ADD TO REGISTRY",
+                    "class": "btn btn-secondary btn-lg btn-block",
+                    "id": "get-registry",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": "ADD TO REGISTRY",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    ADD TO LIST
+                  </button>,
+                  "className": "col-4",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ADD TO LIST",
+                    "class": "btn btn-secondary btn-lg btn-block",
+                    "id": "get-registry",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": "ADD TO LIST",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    SHARE
+                  </button>,
+                  "className": "col-4",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "SHARE",
+                    "class": "btn btn-secondary btn-lg btn-block",
+                    "id": "get-registry",
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": "SHARE",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <span
+                className="col-12"
+              >
+                <h1
+                  className="highlights-heading"
+                >
+                  products highlights
+                </h1>
+              </span>
+            </div>,
+            <ul
+              className="product-list"
+            />,
+          ],
+          "className": "product-highlights",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="col-12"
+              >
+                <h1
+                  className="highlights-heading"
+                >
+                  products highlights
+                </h1>
+              </span>,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1
+                  className="highlights-heading"
+                >
+                  products highlights
+                </h1>,
+                "className": "col-12",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "products highlights",
+                  "className": "highlights-heading",
+                },
+                "ref": null,
+                "rendered": "products highlights",
+                "type": "h1",
+              },
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "product-list",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "ul",
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <section>
+            <p>
+              <span
+                className="price"
+              />
+            </p>
+            <div
+              className="benefits"
+            >
+              <ul
+                className="fa-ul"
+              />
+            </div>
+          </section>,
+          <section>
+            <div
+              className="quantity"
+            >
+              <span>
+                 quantity: 
+              </span>
+              <span
+                className="round-buttons pull-right"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-minus-circle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+                <span
+                  className="increament"
+                >
+                  1
+                </span>
+                <i
+                  aria-hidden="true"
+                  className="fa fa-plus-circle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </span>
+            </div>
+          </section>,
+          <section
+            className="container shop-section"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-6"
+              >
+                
+                <p
+                  className="find-coach"
+                >
+                   find in store
+                </p>
+              </div>
+              <div
+                className="col-6"
+              >
+                
+              </div>
+            </div>
+          </section>,
+          <section
+            className="return-section"
+          >
+            <div
+              className="row"
+            >
+              <span
+                className="return-title col-2"
+              >
+                return
+              </span>
+              <span
+                className="return-details col-10"
+              >
+                 This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.
+              </span>
+            </div>
+            <div
+              className="row policy-details"
+            >
+              <div
+                className="col-4"
+              >
+                <button
+                  class="btn btn-secondary btn-lg btn-block"
+                  id="get-registry"
+                  type="button"
+                >
+                  ADD TO REGISTRY
+                </button>
+              </div>
+              <div
+                className="col-4"
+              >
+                <button
+                  class="btn btn-secondary btn-lg btn-block"
+                  id="get-registry"
+                  type="button"
+                >
+                  ADD TO LIST
+                </button>
+              </div>
+              <div
+                className="col-4"
+              >
+                <button
+                  class="btn btn-secondary btn-lg btn-block"
+                  id="get-registry"
+                  type="button"
+                >
+                  SHARE
+                </button>
+              </div>
+            </div>
+          </section>,
+          <section
+            className="product-highlights"
+          >
+            <div
+              className="row"
+            >
+              <span
+                className="col-12"
+              >
+                <h1
+                  className="highlights-heading"
+                >
+                  products highlights
+                </h1>
+              </span>
+            </div>
+            <ul
+              className="product-list"
+            />
+          </section>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                <span
+                  className="price"
+                />
+              </p>,
+              <div
+                className="benefits"
+              >
+                <ul
+                  className="fa-ul"
+                />
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="price"
+                  />,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "price",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                undefined,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul
+                  className="fa-ul"
+                />,
+                "className": "benefits",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "fa-ul",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "ul",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="quantity"
+            >
+              <span>
+                 quantity: 
+              </span>
+              <span
+                className="round-buttons pull-right"
+              >
+                <i
+                  aria-hidden="true"
+                  className="fa fa-minus-circle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+                <span
+                  className="increament"
+                >
+                  1
+                </span>
+                <i
+                  aria-hidden="true"
+                  className="fa fa-plus-circle"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </span>
+            </div>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span>
+                   quantity: 
+                </span>,
+                <span
+                  className="round-buttons pull-right"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-minus-circle"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  />
+                  <span
+                    className="increament"
+                  >
+                    1
+                  </span>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-plus-circle"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  />
+                </span>,
+              ],
+              "className": "quantity",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " quantity: ",
+                },
+                "ref": null,
+                "rendered": " quantity: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-minus-circle"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                        }
+                      }
+                    />,
+                    <span
+                      className="increament"
+                    >
+                      1
+                    </span>,
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-plus-circle"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "cursor": "pointer",
+                        }
+                      }
+                    />,
+                  ],
+                  "className": "round-buttons pull-right",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-hidden": "true",
+                      "className": "fa fa-minus-circle",
+                      "onClick": [Function],
+                      "style": Object {
+                        "cursor": "pointer",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 1,
+                      "className": "increament",
+                    },
+                    "ref": null,
+                    "rendered": 1,
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-hidden": "true",
+                      "className": "fa fa-plus-circle",
+                      "onClick": [Function],
+                      "style": Object {
+                        "cursor": "pointer",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="col-6"
+              >
+                
+                <p
+                  className="find-coach"
+                >
+                   find in store
+                </p>
+              </div>
+              <div
+                className="col-6"
+              >
+                
+              </div>
+            </div>,
+            "className": "container shop-section",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-6"
+                >
+                  
+                  <p
+                    className="find-coach"
+                  >
+                     find in store
+                  </p>
+                </div>,
+                <div
+                  className="col-6"
+                >
+                  
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "",
+                    <p
+                      className="find-coach"
+                    >
+                       find in store
+                    </p>,
+                  ],
+                  "className": "col-6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": " find in store",
+                      "className": "find-coach",
+                    },
+                    "ref": null,
+                    "rendered": " find in store",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                  "className": "col-6",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <span
+                  className="return-title col-2"
+                >
+                  return
+                </span>
+                <span
+                  className="return-details col-10"
+                >
+                   This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.
+                </span>
+              </div>,
+              <div
+                className="row policy-details"
+              >
+                <div
+                  className="col-4"
+                >
+                  <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    ADD TO REGISTRY
+                  </button>
+                </div>
+                <div
+                  className="col-4"
+                >
+                  <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    ADD TO LIST
+                  </button>
+                </div>
+                <div
+                  className="col-4"
+                >
+                  <button
+                    class="btn btn-secondary btn-lg btn-block"
+                    id="get-registry"
+                    type="button"
+                  >
+                    SHARE
+                  </button>
+                </div>
+              </div>,
+            ],
+            "className": "return-section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="return-title col-2"
+                  >
+                    return
+                  </span>,
+                  <span
+                    className="return-details col-10"
+                  >
+                     This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.
+                  </span>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "return",
+                    "className": "return-title col-2",
+                  },
+                  "ref": null,
+                  "rendered": "return",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.",
+                    "className": "return-details col-10",
+                  },
+                  "ref": null,
+                  "rendered": " This item must be returned within 30 days of the ship data. See return policy for details. Prices, promotions, styles and availibility may vary by store and online.",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-4"
+                  >
+                    <button
+                      class="btn btn-secondary btn-lg btn-block"
+                      id="get-registry"
+                      type="button"
+                    >
+                      ADD TO REGISTRY
+                    </button>
+                  </div>,
+                  <div
+                    className="col-4"
+                  >
+                    <button
+                      class="btn btn-secondary btn-lg btn-block"
+                      id="get-registry"
+                      type="button"
+                    >
+                      ADD TO LIST
+                    </button>
+                  </div>,
+                  <div
+                    className="col-4"
+                  >
+                    <button
+                      class="btn btn-secondary btn-lg btn-block"
+                      id="get-registry"
+                      type="button"
+                    >
+                      SHARE
+                    </button>
+                  </div>,
+                ],
+                "className": "row policy-details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      class="btn btn-secondary btn-lg btn-block"
+                      id="get-registry"
+                      type="button"
+                    >
+                      ADD TO REGISTRY
+                    </button>,
+                    "className": "col-4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ADD TO REGISTRY",
+                      "class": "btn btn-secondary btn-lg btn-block",
+                      "id": "get-registry",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": "ADD TO REGISTRY",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      class="btn btn-secondary btn-lg btn-block"
+                      id="get-registry"
+                      type="button"
+                    >
+                      ADD TO LIST
+                    </button>,
+                    "className": "col-4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ADD TO LIST",
+                      "class": "btn btn-secondary btn-lg btn-block",
+                      "id": "get-registry",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": "ADD TO LIST",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      class="btn btn-secondary btn-lg btn-block"
+                      id="get-registry"
+                      type="button"
+                    >
+                      SHARE
+                    </button>,
+                    "className": "col-4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "SHARE",
+                      "class": "btn btn-secondary btn-lg btn-block",
+                      "id": "get-registry",
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": "SHARE",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <span
+                  className="col-12"
+                >
+                  <h1
+                    className="highlights-heading"
+                  >
+                    products highlights
+                  </h1>
+                </span>
+              </div>,
+              <ul
+                className="product-list"
+              />,
+            ],
+            "className": "product-highlights",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  className="col-12"
+                >
+                  <h1
+                    className="highlights-heading"
+                  >
+                    products highlights
+                  </h1>
+                </span>,
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h1
+                    className="highlights-heading"
+                  >
+                    products highlights
+                  </h1>,
+                  "className": "col-12",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "products highlights",
+                    "className": "highlights-heading",
+                  },
+                  "ref": null,
+                  "rendered": "products highlights",
+                  "type": "h1",
+                },
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "product-list",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "ul",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
